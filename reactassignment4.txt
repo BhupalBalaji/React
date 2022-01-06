@@ -1,0 +1,25 @@
+								B Balaji
+								ASSIGNMENT 4
+
+-Lifecycle methods of class component
+
+	Mounting − Mounting represents the rendering of the React component in
+ the given DOM node.
+
+Updating − Updating represents the re-rendering of the React component in the given 
+DOM node during state changes / updates.
+
+Unmounting − Unmounting represents the removal of the React component.
+
+-React hooks
+
+	Hooks are a new addition in ract 16.8, They let us state and other react 
+features without writinf a class. Hooks are backwards-compatible .
+	Hooks allows you use state and other react features like lifecycle methods, 
+without writing a class.
+
+-Project structure of ReactApp
+
+	It consists of node modules who=ich holdes all the dependices of the project.
+Public folder consists of favicoin.ico, and drc folder consists of css and js files 
+and another package.json ad packagelock.json files.

@@ -1,0 +1,18 @@
+										B Balaji
+										Assignment 6
+
+
+
+
+Q1. props drilling is nothing but when we need to send props from one level to other like from parent to nth child in the component, the intermediary components need not do anything with those props but are acting as a pathway to pass those props to the child which actually needs them.
+
+
+<===================================================================================================================================================================================================================================================================================================>
+
+Q2.  Formik is a small group of React components and hooks for building forms in React and React Native.
+      Yup is a JavaScript schema builder for value parsing and validation.Yup schema are incredibly powerful and support modeling complex, interdependent validations, or value transformations.
+
+<=================================================================================================================================================================================================================================================================================>
+
+
+Q3.  react-router hosts the core components for routing React applications, react-router-dom provides browser specific components for routing web apps.

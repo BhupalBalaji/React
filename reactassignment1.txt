@@ -1,0 +1,53 @@
+                                                  B Balaji
+
+
+-React js-
+
+It's an open source java script library, which is used for building
+user interfaces specifically for single-page web applications.
+It is used for handling the view layer for web and mobile apps.
+
+-Why React?
+
+React has some advantages over some other platforms,
+1. simplicity
+2. Easy to learn
+3. Performance
+4. flexibility
+etc,.
+
+-Diff b/n library and framework
+
+Library                           framework
+library is a set of reusable   it is a piece of code that dictates the 
+functions used by computer     architecture of your project
+programs
+it yeilds full control when	the code never calls into the framework,
+ever we call a method from    instead framework calls
+library 
+these are used for linking	these provide a strong way to build and
+and binding process		deploy applications
+these are used to add the 	it cant be used in the existing project
+functionality in the existing	, instead it is used for a new project.
+programs
+
+-virtual DOM
+It is a programming concept where an virtual representation of a 
+UI is kept in a memory and synced with the real DOm by a library
+as react DOM, it is mainly used to improve the performance of the
+project by observing and states the changes required.
+
+Real DOM vs Virtual DOM
+
+Real DOM 				Virtual DOM
+It updates slow		It updates faster
+can directly update the HTML	cant directly update the HTML
+creates a new DOM if element	updates the JSX if element updates
+updates
+DOM manipulation is very 	DOM manipulation is easy
+expensive
+It requires a large memory	Nomemory required
+
+what is single page web application?
+The application that loads only a single web application and then updates
+the body content of that single document vis JS APIs .

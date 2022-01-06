@@ -1,0 +1,69 @@
+											B Balaji
+										    ASSIGNMENT 3
+
+
+
+Q1.  life cycle methods:
+
+ * Mounting : it means putting elements into the DOM.
+
+React has four built-in methods that gets called, in this order, when mounting a component:
+
+.constructor(): this method is called wen the component is initiated, and it is the natural place to set up the initial state and other initial values.The constructor() method is called with the props, as arguments, and we should always start by calling the super(props) before anything else, this will initiate the parent's constructor method and allows the component to inherit methods from its parent (React.Component).
+
+.getDerivedStateFromProps():The getDerivedStateFromProps() method is called right before rendering the elements in the DOM. this is the natural place to set the state object based on the initial props.
+It takes state as an argument, and returns an object with changes to the state
+
+.render(): this method is required, and is the method that actually outputs the HTML to the DOM.
+
+.componentDidMount():The componentDidMount() method is called after the component is rendered.
+
+
+*Updating:
+The next phase in the lifecycle is when a component is updated.A component is updated whenever there is a change in the component's state or props.
+React has five built-in methods that gets called, in this order, when a component is updated:
+
+.getDerivedStateFromProps():This is the first method that is called when a component gets updated.
+
+.shouldComponentUpdate():in this method we can return a Boolean value that specifies whether React should continue with the rendering or not.
+
+.render():The render() method is of course called when a component gets updated, it has to re-render the HTML to the DOM, with the new changes.
+
+.getSnapshotBeforeUpdate(): here we have access to the props and state before the update which means that even after the update, we can check what the values were before the update.
+If the getSnapshotBeforeUpdate() method is present, we should also include the componentDidUpdate() method, otherwise we will get an error.
+
+.componentDidUpdate():The componentDidUpdate method is called after the component is updated in the DOM.
+
+
+*Unmounting
+The next phase in the lifecycle is when a component is removed from the DOM, or unmounting as React likes to call it.
+
+React has only one built-in method that gets called when a component is unmounted:
+
+componentWillUnmount() : this method is called when the component is about to be removed from the DOM.
+
+
+
+Q2. React Hooks: It allows to use state and other React features without writing a class. Hooks are the functions which "hook into" React state and lifecycle features from function components. It does not work inside classes.
+
+
+Q3. usestate hook: it allows to track state in a function component.
+
+
+usestate hook for array:
+
+usestate hook for object:
+
+
+Q4. Assets folder: it stores assets of our project. It consists of images and styling files. Here we can store our global styles.  
+    layouts folder:  it contains layouts available to the whole project like header, footer, etc. We can store the header, footer, or sidebar code here and call it.
+    components folder: Components are the building blocks of any react project. This folder consists of a collection of UI components like buttons, modals, inputs, loader, etc., that can be used across various files in the project.
+    pages folder: The files in the pages folder indicate the route of the react application. Each file in this folder contains its route. A page can contain its subfolder. Each page has its state and is usually used to call an async operation.
+    middleware folder: This folder consists of middleware that allows for side effects in the application. It is used when we are using redux with react.
+    routes folder:This folder consists of all routes of the application. It consists of private, protected, and all types of routes. Here we can even call our sub-route.
+    config folder:his folder consists of a configuration file where we store environment variables in config.js. We will use this file to set up multi-environment configurations in your application.
+    services folder:This folder will be added if we use redux in your project. Inside it, there are 3 folders named actions, reducers, and constant subfolders to manage states. The actions and reducers will be called in almost all the pages, so create actions, reducers & constants according to pages name.
+    Utils folder: it consists of some repeatedly used functions that are commonly used in the project. It should contain only common js functions & objects like dropdown options, regex condition, data formatting, etc.
+    final project structure: So our final architecture of the react project is complete, and it looks something like this. We can customize this according to our requirements.
+
+

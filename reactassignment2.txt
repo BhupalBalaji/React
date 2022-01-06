@@ -1,0 +1,25 @@
+
+
+										 B Balaji
+										ASSIGNMENT 2
+
+
+Q1. *React is a javascript library, designed for building better user interfaces whereas React-DOM is a complimentary library to React which glues React to the browser DOM
+    *react is for the components and react-dom is for rendering the components in the DOM.   
+    *react-dom used for render() method to render components in the DOM
+    *The react package contains React.createElement, React.createClass and React.Component, React.PropTypes, The react package contains React.createElement, React.createClass and React.Component, React.PropTypes whereas The react-dom package contains ReactDOM.render, ReactDOM.unmountComponentAtNode, and ReactDOM.findDOMNode
+
+Q2.  we can create react element calling React.createElement() and using ReactDOM.render() to render elements to the page.
+
+Q3.  JSX stands for JavaScript XML, it allows to write HTML elements in JavaScript and place them in the DOM without any createElement(). it converts HTML tags into react elements.
+
+
+Q7.  Props is a special keyword in React, which stands for properties and is being used for passing data from one component to another.
+
+Q8.  *A class component needs to extend from React. Component and create a render function which returns a React element whereas a functional component is just a plain JavaScript function that accepts props as an argument and returns a React element.
+     *In class component, there must have the render() method returning HTML and there is no render method used in functional components
+     *In class component,Constructor are used as it needs to store state and constructosrs are not used in functional components.
+
+Q9.  Babel is a JavaScript compiler that includes the ability to compile JSX into regular JavaScript.
+
+Q10.  keys are useful when working with dynamically created components or when lists are altered by the users. Setting the key value will keep the components uniquely identified after the change.
